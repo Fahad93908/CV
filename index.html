@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== Fontawesome ICONS ==========-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"/>
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+
+
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd__container ">
+                <a href="#" class="nav__logo">Fahad</a>
+                <div class="nav__menu" id="nav__menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="fa-solid fa-house-user nav__icon"></i> Home
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class="fa-solid fa-user nav__icon"></i> Profile
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class="fa-solid fa-book nav__icon"></i> Book
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="fa-solid fa-receipt nav__icon"></i> Skill
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="fa-sharp fa-solid fa-briefcase nav__icon"></i> Experience
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class="fa-solid fa-award nav__icon"></i> Certificates
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class="fa-solid fa-arrow-up-right-from-square nav__icon"></i> Reference
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="nav__toggle" id="nav__toggle">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd__grid">
+                            <div class="home__data bd__grid">
+                                <img src="assets/img/fahad.png" class="home__img" alt="">
+
+                                <h1 class="home__title">Mohammad Fahad</h1>
+                                <h3 class="home__profession">Full Stack Web Developer & UI Designer.</h3>
+
+                                <!-- Button to generate and download the pdf. Available for desktop. -->
+                                <div>
+                                    <a download="" href="assets/pdf/ResumeCv.pdf" class="home__btn__mobile">Download</a>
+                                </div>
+
+                            </div>
+                            <div class="home__address bd__grid bd__container">
+                                <span class="home__information home__icon">
+                                    <i class="fa-solid fa-location-dot"></i> Dhaka-Bangladesh.
+                                </span>
+                                <span class="home__information home__icon">
+                                    <i class="fa-solid fa-envelope"></i> fahadwebdesigner6@gmail.com
+                                </span>
+                                <span class="home__information home__icon">
+                                    <i class="fa-solid fa-phone"></i> 01858281093
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class="fa-regular fa-moon change__theme" title="theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop -->
+                    <i class="fa-solid fa-download generate__pdf" title="Generate PDF" id="resume-button"></i>
+                    </section>          
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section__title">Social</h2>
+                        <div class="social__container bd__container bd__grid">
+
+                                <a href="https://www.behance.net/mohammadfahad7/projects" target="_blank" class="social__link">
+                                    <i class="fa-brands fa-behance social_icon"></i> Behance
+                                </a>
+                                <a href="https://www.linkedin.com/in/mohammad-fahad-565842216/" target="_blank" class="social__link">
+                                    <i class="fa-brands fa-linkedin-in social_icon"></i> Linkedin
+                                </a>
+                                <a href="https://www.facebook.com/MohammadFahad93/" target="_blank" class="social__link">
+                                    <i class="fa-brands fa-facebook social_icon"></i> Facebook
+                                </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section__title">Profile</h2>
+                        <p class="profile__description bd__container">
+                            I am a Full Stack Web Developer & UI Designer. I'm very passionate and dedicated to my work. With 2 years experience as a professional Web developer, I have acquired the skills and knowledge necessary to make your project a success. I've helped so many organizations improve their online presence and hope I can help you to make an awesome website for your business. I am passionate to learn more and get my skill sets more polished and learn new technologies. I love programming and coding as It's my passion.
+                        </p>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section__title">Education</h2>
+                        <div class="education__container bd__container bd__grid">
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bd__grid">
+                                    <h3 class="education__title">Master of Graphics Design.</h3>
+                                    <span class="education_studies">Institute of Shikhbe Shobai</span>
+                                    <span class="education__year">2020 - 2021</span>
+                                </div>
+                            </div>
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+                                <div class="education__data bd__grid">
+                                    <h3 class="education__title">Master in Web Developer.</h3>
+                                    <span class="education_studies">Institute of Shikhbe Shobai</span>
+                                    <span class="education__year">2021 - 2022</span>
+                                </div>
+                            </div>
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+                                <div class="education__data bd__grid">
+                                    <h3 class="education__title">Master in Shopify Developer.</h3>
+                                    <span class="education_studies">Institute of Shikhbe Shobai</span>
+                                    <span class="education__year">2022 - 2023</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section__title">Skills</h2>
+                        <div class="skills_content bd__container bd__grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> HTML
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> CSS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Bootstrap
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Basic Javascript
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Jquery
+                                </li>
+                            </ul>
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Wordpress
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Shopify
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Elementor
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Pagefly
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Shogun
+                                </li>
+                               
+                            </ul>
+                        </div>
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section__title">Experience</h2>
+                        <div class="experience__container bd__container bd__grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd__grid">
+                                    <h3 class="experience__title">MASTER OF GRAPHICS DESIGN</h3>
+                                    <span class="experience__company">From 2020 to 2021</span>
+                                    <p class="experience__description">
+                                        work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd__grid">
+                                    <h3 class="experience__title">MASTER OF FULL STACK WEB DEVELOPER</h3>
+                                    <span class="experience__company">From 2021 to 2022</span>
+                                    <p class="experience__description">
+                                        work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+                                <div class="experience__data bd__grid">
+                                    <h3 class="experience__title">MASTER OF SHOPIFY DEVELOPER</h3>
+                                    <span class="experience__company">From 2022 to 2023</span>
+                                    <p class="experience__description">
+                                        work in this company dedicating the best responsibility in the area that corresponds, delivering the best results for the company and improving productivity.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificate section" id="certificates">
+                        <h2 class="section__title">certificates</h2>
+                        <div class="certificate__container bd__grid bd__container">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Certified for compliance in the course.</h3>
+                                <p class="cerificate_description">
+                                  Graphics & UI Design. (2020)
+                                </p>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Certified for compliance in the course. </h3>
+                                <p class="cerificate_description">
+                                    Full Stack Web Development.(2020)
+                                </p>
+                            </div>
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Certified for compliance in the course.</h3>
+                                <p class="cerificate_description">
+                                    Shopify Development.(2020)
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references">
+                        <h2 class="section__title">references</h2>
+                        <div class="references__container bd__container bd__grid">
+
+                            <div class="references__content bd__grid">
+                                <span class="references__subtitle">ICT Teacher</span>
+                                <h3 class="references__title">Bikrom Aditto</h3>
+                                <ul class="references__contact">
+                                    <li>phone : +880-000-000-0000</li>
+                                    <li>email : user@gmail.com</li>
+                                </ul>
+                            </div>
+                            <div class="references__content bd__grid">
+                                <span class="references__subtitle">ICT Teacher</span>
+                                <h3 class="references__title">Bikrom Aditto</h3>
+                                <ul class="references__contact">
+                                    <li>phone : +880-000-000-0000</li>
+                                    <li>email : user@gmail.com</li>
+                                </ul>
+                            </div>
+                         
+                        </div>
+                    </section>
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section__title">Languages</h2>
+                        <div class="language__container bd__container">
+                            <ul class="language__content bd__grid">
+
+                                <li class="language__name">
+                                    <span class="language__circle"></span>English
+                                </li>
+                                <li class="language__name">
+                                    <span class="language__circle"></span>Bengali
+                                </li>
+                                <li class="language__name">
+                                    <span class="language__circle"></span>Arabic
+                                </li>
+                                <li class="language__name">
+                                    <span class="language__circle"></span>Hindi
+                                </li>
+
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <section class="interests section">
+                        <h2 class="section__title">Interests</h2>
+                        <div class="interests__container bd__container bd__grid">
+                            <div class="interests__content ">
+                                <i class="fa-solid fa-headphones-simple interests__icon"></i>
+                                <span class="interests__name ">Music</span>
+                            </div>
+                            <div class="interests__content ">
+                                <i class="fa-solid fa-plane-up interests__icon"></i>
+                                <span class="interests__name ">Travel</span>
+                            </div>
+                            <div class="interests__content ">
+                                <i class="fa-solid fa-book interests__icon"></i>
+                                <span class="interests__name ">Book</span>
+                            </div>
+                            <div class="interests__content ">
+                                <i class="fa-solid fa-dumbbell interests__icon"></i>
+                                <span class="interests__name ">Fitness</span>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scroll__top" id="scroll-top">
+            <i class="fa-solid fa-arrow-up scrollTop__icon"></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
